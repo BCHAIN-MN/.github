@@ -4,7 +4,7 @@ A decentralized platform (DApp) for students of Hochschule Luzern (HSLU) to tran
 
 ## Live Deployment
 
-- **Frontend**: [Link](https://interface-khaki-iota.vercel.app/)
+- **Frontend**: [Link](https://app.module-review.site/)
 - **Network**: Polygon Amoy Testnet
 - **Block Explorer**: [Polygonscan Amoy](https://amoy.polygonscan.com/)
 
@@ -18,18 +18,18 @@ A decentralized platform (DApp) for students of Hochschule Luzern (HSLU) to tran
 
 ## Smart Contracts (Deployed on Polygon Amoy)
 
-- **StudentIdentity**: 0x12988870ec1adb756e57970279ac3475715368
+- **StudentIdentity**: 0xF93adc88d05D519fFeFf476483C31858F13C54Ec
   - Soul-Bound Token (SBT) for student verification
   - Non-transferable NFT badges
   
 
-- **ModuleReviews**: 0x1ba60a98e0ae46cd47dc85c440057f6ef9f5e2e1
+- **ModuleReviews**: 0x19224E4a264C2c248f3fd50430d2470F471623e9
   - Module management and review storage
   - On-chain review data
 
 View contracts on [Polygonscan Amoy](https://amoy.polygonscan.com/):
-- StudentIdentity: [Link](https://amoy.polygonscan.com/address/0x12988870ec1adb756e57970279ac3475715368df#events)
-- ModuleReviews: [Link](https://amoy.polygonscan.com/address/0x1ba60a98e0ae46cd47dc85c440057f6ef9f5e2e1#events)
+- StudentIdentity: [Link](https://amoy.polygonscan.com/address/0xF93adc88d05D519fFeFf476483C31858F13C54Ec#events)
+- ModuleReviews: [Link](https://amoy.polygonscan.com/address/0x19224E4a264C2c248f3fd50430d2470F471623e9#events)
 
 ## Prerequisites
 
@@ -63,8 +63,8 @@ npm install
 Create `.env.local` in the `interface` directory:
 
 ```env
-NEXT_PUBLIC_MODULE_REVIEWS_ADDRESS=0x1ba60a98e0ae46cd47dc85c440057f6ef9f5e2e1
-NEXT_PUBLIC_STUDENT_IDENTITY_ADDRESS=0x12988870ec1adb756e57970279ac3475715368df
+NEXT_PUBLIC_MODULE_REVIEWS_ADDRESS=0x19224E4a264C2c248f3fd50430d2470F471623e9
+NEXT_PUBLIC_STUDENT_IDENTITY_ADDRESS=0xF93adc88d05D519fFeFf476483C31858F13C54Ec
 ```
 
 ### 4. Configure MetaMask for Polygon Amoy
