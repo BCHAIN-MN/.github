@@ -2,9 +2,10 @@
 
 A decentralized platform (DApp) for students of Hochschule Luzern (HSLU) to transparently and tamper-proof record module ratings and reviews.
 
-## Live Deployment
+## Deployments
 
-- **Frontend**: [Link](https://app.module-review.site/)
+- **DApp Live**: [Link](https://app.module-review.site/)
+- **DApp Test**: [Link](https://test.module-review.site/)
 - **Network**: Polygon Amoy Testnet
 - **Block Explorer**: [Polygonscan Amoy](https://amoy.polygonscan.com/)
 
